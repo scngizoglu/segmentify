@@ -1,0 +1,69 @@
+body{
+  background-color: #aaaaaa;
+}
+.tabs-section {
+  overflow: hidden;
+  background-color: white;
+  padding: 60px 0px;
+  margin: 20px 20px 0px 20px;
+  height:100%; 
+  border-radius:7px;
+}
+.tabs-section .feature-img {
+  max-height: 255px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+.tabs-section .nav-tabs {
+  border: 0;
+}
+.tabs-section .nav-link {
+  border: 0;
+  padding: 11px 15px;
+  transition: 0.3s;
+  color: #aaaaaa;
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 50px;
+}
+.tabs-section .nav-link:hover {
+  color: #2458bc;
+  background-color:#D6EAF8;
+  border-left: 4px solid #2458bc !important;
+  
+}
+.tabs-section .nav-link.active {
+  color: #2458bc;
+  background-color:#D6EAF8;
+  border-left: 4px solid #2458bc !important;
+  
+}
+
+.tabs-section .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+.tabs-section .details h3 {
+  font-size: 26px;
+  color: #F0f4fc;
+}
+.tabs-section .details p {
+  color: #aaaaaa;
+}
+
+#navbarCollapse .navbar-nav::-webkit-scrollbar {
+  display: none;
+}
+
+#navbarCollapse .navbar-nav{
+  display: -webkit-inline-box; 
+  overflow-y: auto;
+}
+
+.js-products{
+  transform: translate3d(0px, 0px, 0px); 
+  transition: all 0s ease 0s; 
+  width: 210px;
+}
