@@ -65,7 +65,7 @@ function getProductsFromCategory(e,defaultCategoryName){
         '</figure>'+
         '<div class="product-details">'+
           '<h3 class="product-name">'+
-            '<a href="'+product.url+'" target="_blank">"'+product.name+'"</a>'+
+            '<a href="'+product.url+'" target="_blank">'+product.name+'</a>'+
           '</h3>'+
         '<div class="product-price" style="height:40px; background-color: #F2F2F2; display: flex; justify-content: center; align-items:center;">'+
           '<span  class="price">'+product.priceText+'</span>'+
